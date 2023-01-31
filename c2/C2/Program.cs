@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace C2
 {
@@ -6,7 +7,7 @@ namespace C2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var students = new HashSet<Student>(new CustomComparer())
         }
     }
 }
